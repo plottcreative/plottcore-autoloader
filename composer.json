@@ -1,0 +1,30 @@
+{
+    "name": "plott/plottcore-autloader",
+    "description": "An autoloader that enables standard plugins to be require just like mu-plugins",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+        "10up/wp_mock": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Plott\\Plottcore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashley Armstrong",
+            "email": "ashley@plott.co.uk",
+            "role": "Head of Web"
+        },
+        {
+            "name": "Ewan Lockwood",
+            "email": "ewan@plott.co.uk",
+            "role": "Web Developer"
+        }
+    ]
+}
